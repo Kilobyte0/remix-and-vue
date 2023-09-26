@@ -1,0 +1,11 @@
+services:
+  my-remix-app:
+    build: ./my-remix-app
+    ports:
+      - 4000:3000
+  vue-project:
+    build: ./vue-project
+    ports:
+      - 5000:8080
+  
+ 
